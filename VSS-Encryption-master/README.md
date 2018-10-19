@@ -5,4 +5,6 @@ NON-OPERATIONAL CODE for a K out of K shares visual secret sharing scheme.
 
 UPDATING FOR PYTHON 3.7 IN PROGRESS. I don't know who decided it was a good idea to use Python 2.
 
+K out of N currently infeasible. May be a future project.
+
 
