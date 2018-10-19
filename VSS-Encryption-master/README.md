@@ -3,7 +3,7 @@ A python implementation of the image secret sharing encryption method described 
 
 NON-OPERATIONAL CODE for a K out of K shares visual secret sharing scheme.
 
-UPDATING FOR PYTHON 3.7 IN PROGRESS. I don't know who decided it was a good idea to use Python 2.
+UPDATING FOR PYTHON 3.7 IN PROGRESS
 
 K out of N currently infeasible. May be a future project.
 
