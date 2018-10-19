@@ -8,6 +8,7 @@ UPDATING FOR PYTHON 3.7 IN PROGRESS. I don't know who decided it was a good idea
 Sometimes operational Python 2 version found here: https://github.com/timothychloPSG/VSS-Encryption
 
 TODO:    
+
          -Play janitor and clean up and comment code.
          
          -Make it actually readable
