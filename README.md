@@ -1,7 +1,7 @@
 # VSS-Encryption
 Collaborative project with CS Group from UCSC
 
-Non-operational code for a K out of K shares visual secret sharing scheme. 
+Non-operational code for a K out of K shares visual secret sharing scheme. Only works for black and white images.
 
 UPDATING FOR PYTHON 3.7 IN PROGRESS. I don't know who decided it was a good idea to use Python 2.
 
