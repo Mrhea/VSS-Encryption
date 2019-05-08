@@ -53,9 +53,16 @@ def makePiSigma (W):
   set for the search target.
 '''
 def search (target, search_space):
+   if isinstance(search_space, int): 
+      val = target == search_space
+      print(target)
+      print(val)
+      return val
    if target in search_space:
+      print("Found in search! Returning True")
       return True
    else:
+      print("Not found! Returning False")
       return False
 
 '''
@@ -164,7 +171,7 @@ def koutofk_to3D_Matrix(k, Matrix):
    s1 = makeS(W, sigma)
 
    # startTime = time.time()
-   side_len = 2 << ((k-1)/2) - 1  #(2^(k-1))/2 is the size of a side of a pixel in subpixels
+   side_len = 2 << int(((k-1)/2) - 1)  #(2^(k-1))/2 is the size of a side of a pixel in subpixels
    #print(side_len)
    pixels = 0
    for pixel in Matrix[0]:
@@ -285,9 +292,9 @@ def stack_images(Images):
 '''
 def toImage_fr3D(k, Matrix):
    #set up the output Matrix which will be the dimensions of the original matrix
-   subpixels = 2 << ((k-1) /2) - 1
-   num_pixels = sum(1 for subpixel in Matrix[0][0])/subpixels
-   num_lines = sum(1 for subpixel in Matrix[0]) /subpixels
+   subpixels = 2 << int(((k-1) /2) - 1)
+   num_pixels = sum(1 for subpixel in Matrix[0][0]) // subpixels
+   num_lines = sum(1 for subpixel in Matrix[0]) // subpixels
    outMatrix = np.zeros((num_lines, num_pixels), dtype=np.uint8)
    #Calculate the value of each pixel by combining squares of subpixels between the shares
    for i in range(num_lines):
