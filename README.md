@@ -8,19 +8,15 @@ UPDATING FOR PYTHON3 IN PROGRESS
 Operational Python 2 version found here: https://github.com/timothychloPSG/VSS-Encryption
 
 TODO:    
-
-         -Play janitor and clean up and comment code.
-         
-         -Make it actually readable
          
          -Change parsing.py so that it has command line arguments for
          
-         -Creating files that have shares in them
-         
-         -Creating images that are shares
-         
-         -Files to final image
-         
+                  -Creating files that have shares in them
+
+                  -Creating images that are shares
+
+                  -Files to final image
+
          -Images to final image through:
          
                   -Having the computer look at the subpixels and define the overall pixel (computational)
