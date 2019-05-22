@@ -5,7 +5,7 @@ A K out of K shares visual secret sharing scheme. Only works for black and white
 
 UPDATING FOR PYTHON3 IN PROGRESS
 
-Sometimes operational Python 2 version found here: https://github.com/timothychloPSG/VSS-Encryption
+Operational Python 2 version found here: https://github.com/timothychloPSG/VSS-Encryption
 
 TODO:    
 
